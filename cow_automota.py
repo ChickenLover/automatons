@@ -31,6 +31,6 @@ for rule in itertools.cycle([45, 60, 62, 72, 73, 74, 75, 82, 86, 88, 89, 90, 94,
                 to_print += '{}\n'.format(''.join([(one if number else zero) for number in line]))
             #call(['clear'])
             print('\n'*50)
-            call(['cowsay', to_print])
+            call(['cowsay', '-W', 40, to_print])
     except KeyboardInterrupt:
         pass
