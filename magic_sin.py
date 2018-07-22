@@ -2,7 +2,7 @@ import time
 import math
 
 step = 0.06
-size = 120
+size = 60
 half = size//2
 zero_char = ' '
 cross_char = '+'
