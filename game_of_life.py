@@ -2,8 +2,8 @@ import random
 import time
 from subprocess import call 
 
-field_size_x = 110
-field_size_y = 32
+field_size_x = 70
+field_size_y = 30
 
 spawn_rate = 15
 

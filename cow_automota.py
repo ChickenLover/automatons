@@ -10,6 +10,8 @@ buffer_length = 28
 one = '@'
 zero = '_'
 
+def cowsay(text):
+    pass   
 
 for rule in itertools.cycle([45, 60, 62, 72, 73, 74, 75, 82, 86, 88, 89, 90, 94, 101, 102, 104, 105, 106, 108, 109, 118, 120, 126, 134, 138, 144, 146, 148, 150, 166, 180, 182, 210]):
     ruleset = bin(rule)[2:].zfill(8)
